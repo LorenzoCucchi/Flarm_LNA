@@ -1,0 +1,18 @@
+.RFSW1012TR7 :1 ;RF Switch ICs .05-6GHz SPDT IL .45dB Max.
+QFN50P200X200X60-13N-D
+*STM S
+*NGS
+*PLB 1="GND_1" 2="RFC" 3="GND_2" 4="GND_3" 5="RF1" 6="GND_4" 7="CTRL" 8="EN" 9="VDD" 10="GND_5" 11="RF2" 12="GND_6" 13="THERMAL PAD"
+*MXP 13
+*DFN RFSW1012TR7
+~!Manufacturer_Name (RFMD)
+~!Manufacturer_Part_Number (RFSW1012TR7)
+~!Mouser Part Number (772-RFSW1012)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=772-RFSW1012)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.qorvo.com/products/d/da001146)
+~!Height (0.6mm)
+~!3D_Model (RFSW1012TR7)
+RFSW1012TR7
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 9.1!U 8.1!U 7.1!U 13.1!U 12.1!U 11.1!U 10.1!U 

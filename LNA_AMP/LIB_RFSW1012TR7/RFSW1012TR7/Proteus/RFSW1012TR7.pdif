@@ -1,0 +1,179 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RFSW1012TR7"
+   (description "RF Switch ICs .05-6GHz SPDT IL .45dB Max.")
+   (family "SWI")
+   (package "QFN50P200X200X60-13N-D")
+   (attribute "Datasheet Link" "http://www.qorvo.com/products/d/da001146")
+   (attribute "Geometry.Height" "0.6mm")
+   (attribute "Manufacturer_Name" "RFMD")
+   (attribute "Manufacturer_Part_Number" "RFSW1012TR7")
+   (attribute "Mouser Part Number" "772-RFSW1012")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=772-RFSW1012")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "RFSW1012TR7")
+    (pin "GND_1" 1 PS)
+    (pin "RFC" 2 PS)
+    (pin "GND_2" 3 PS)
+    (pin "GND_3" 4 PS)
+    (pin "RF1" 5 PS)
+    (pin "GND_4" 6 PS)
+    (pin "VDD" 9 PS)
+    (pin "EN" 8 PS)
+    (pin "CTRL" 7 PS)
+    (pin "THERMAL_PAD" 13 PS)
+    (pin "GND_6" 12 PS)
+    (pin "RF2" 11 PS)
+    (pin "GND_5" 10 PS)
+   )
+  )
+  (symbol "RFSW1012TR7"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 800) (pt 1000 800) (pt 1000 -700) (pt 200 -700) (pt 200 800) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 -900) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 -900) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 -900) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 1000) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 1000) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 1000) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 1000) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "QFN50P200X200X60-13N-D"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.6 1.6)
+      (pt 1.6 1.6)
+      (pt 1.6 -1.6)
+      (pt -1.6 -1.6)
+      (pt -1.6 1.6))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 1)
+      (pt 1 1)
+      (pt 1 -1)
+      (pt -1 -1)
+      (pt -1 1))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1 0.5)
+      (pt -0.5 1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (circle
+      (pt -1.225 1.25) (pt -1.475 1.25)
+     )
+    )
+   )
+   (leg 1 (pt -1.05 0.5) (padstack 0))
+   (leg 2 (pt -1.05 0) (padstack 0))
+   (leg 3 (pt -1.05 -0.5) (padstack 0))
+   (leg 4 (pt -0.5 -1.05) (padstack 1))
+   (leg 5 (pt 0 -1.05) (padstack 1))
+   (leg 6 (pt 0.5 -1.05) (padstack 1))
+   (leg 7 (pt 1.05 -0.5) (padstack 2))
+   (leg 8 (pt 1.05 0) (padstack 2))
+   (leg 9 (pt 1.05 0.5) (padstack 2))
+   (leg 10 (pt 0.5 1.05) (padstack 3))
+   (leg 11 (pt 0 1.05) (padstack 3))
+   (leg 12 (pt -0.5 1.05) (padstack 3))
+   (leg 13 (pt 0 0) (padstack 13))
+   (padstack 0
+    (pad (layer TCOP) (path (pt -0.3 0.125) (arc (pt 0.175 0.125) (pt 0.05 -0.125) (pt 0.3 0.125) (start -180) (sweep 90)) (pt 0.175 -0.125) (pt -0.3 -0.125) (pt -0.3 0.125)))
+   )
+   (padstack 1
+    (pad (layer TCOP) (path (pt -0.125 -0.3) (arc (pt -0.125 0.175) (pt -0.125 0.05) (pt 0.125 0.3) (start -180) (sweep 180)) (pt 0.125 0.175) (pt 0.125 -0.3) (pt -0.125 -0.3)))
+   )
+   (padstack 2
+    (pad (layer TCOP) (path (pt 0.3 -0.125) (arc (pt -0.175 -0.125) (pt -0.3 -0.125) (pt -0.05 0.125) (start -180) (sweep 270)) (pt -0.175 0.125) (pt 0.3 0.125) (pt 0.3 -0.125)))
+   )
+   (padstack 3
+    (pad (layer TCOP) (path (pt 0.125 0.3) (arc (pt 0.125 -0.175) (pt -0.125 -0.3) (pt 0.125 -0.05) (start -180) (sweep 0)) (pt -0.125 -0.175) (pt -0.125 0.3) (pt 0.125 0.3)))
+   )
+   (padstack 13
+    (plated false)
+    (pad (layer TCOP) (rectf 1.15 1.15 0 0 90))
+   )
+   (model "RFSW1012TR7.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

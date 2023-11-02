@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RFSW1012TR7'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RFMD", "RFSW1012TR7" (!) = "", "QFN50P200X200X60-13N-D", "Quad Flat No-Lead", "772-RFSW1012", "https://www.mouser.com/Search/Refine.aspx?Keyword=772-RFSW1012", "", "", "RF Switch ICs .05-6GHz SPDT IL .45dB Max.", "http://www.qorvo.com/products/d/da001146", "0.6 mm"
+END_PART
+
+END.
